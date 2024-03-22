@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout Git Repository
-                git 'https://github.com/kriru/firstJava.git'
+                git 'https://github.com/M-Usman-Shoaib/firstJava.git'
             }
         }
         stage('Build') {
